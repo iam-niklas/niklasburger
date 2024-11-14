@@ -1,30 +1,80 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		<h1>Coming soon!</h1>
-	</main>
+  <main>
+    <h1>Coming soon!</h1>
+    <svg
+      width="1600"
+      height="760"
+      viewBox="0 0 1600 760"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_f_1006_8)">
+        <path
+          d="M1064.49 234.701C1168.96 230.591 1300.6 235.386 1386.27 257.306C1471.95 279.225 1513.74 318.954 1476.12 351.833C1438.51 384.028 1323.59 410.057 1227.47 426.497C1133.44 442.936 1056.13 451.156 989.266 482.665C920.311 514.175 861.805 570.343 761.508 593.633C661.211 616.922 521.213 608.702 372.857 591.578C224.501 575.138 71.9655 551.164 120.025 510.75C168.084 470.336 420.916 414.852 542.108 381.288C663.3 348.409 652.853 338.134 592.256 291.555C531.66 244.976 420.916 162.093 448.079 151.133C475.243 140.858 638.226 203.192 759.418 227.851C880.61 252.511 960.012 239.496 1064.49 234.701Z"
+          fill="url(#paint0_linear_1006_8)"></path>
+      </g>
+      <defs>
+        <filter
+          id="filter0_f_1006_8"
+          x="-287"
+          y="-54"
+          width="2264"
+          height="964"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="BackgroundImageFix"
+            result="shape"></feBlend>
+          <feGaussianBlur
+            stdDeviation="50"
+            result="effect1_foregroundBlur_1006_8"></feGaussianBlur>
+        </filter>
+        <linearGradient
+          id="paint0_linear_1006_8"
+          x1="111"
+          y1="608"
+          x2="385.002"
+          y2="-216.997"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#00D5FF"></stop>
+          <stop offset="1" stop-color="#EEFF00"></stop>
+        </linearGradient>
+      </defs>
+    </svg>
+  </main>
 </Layout>
 
 <style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
-	}
-	
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 1em;
-	}
+  main {
+    margin: auto;
+    padding: 1rem;
+    width: 800px;
+    max-width: calc(100% - 2rem);
+    color: black;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  svg {
+    width: 130%;
+    height: auto;
+  }
 </style>
